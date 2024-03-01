@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mbostan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\mbostan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\protoc-25.0-win64\bin;C:\Program Files\CMake\bin;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\mbostan\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\mbostan\AppData\Local\Programs\Python\Python311\;C:\Users\mbostan\.cargo\bin;C:\Users\mbostan\AppData\Local\Microsoft\WindowsApps;C:\Users\mbostan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mbostan\AppData\Roaming\npm;C:\Users\mbostan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\mbostan\go\bin;C:\Users\mbostan\. cargo;C:\protoc-25.0-win64\bin;C:\Program Files\LLVM\bin;C:\Users\mbostan\.bun\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: unable to verify the first certificate
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1540:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:959:8)
+      at ssl.onhandshakedone (node:_tls_wrap:743:12)
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@ethersproject/abi": "^5.0.0",
+      "@ethersproject/bytes": "^5.0.0",
+      "@ethersproject/providers": "^5.0.0",
+      "@nomiclabs/hardhat-ethers": "^2.0.2",
+      "@nomiclabs/hardhat-waffle": "^2.0.1",
+      "@tenderly/hardhat-tenderly": "^1.0.12",
+      "@typechain/ethers-v5": "^4.0.0",
+      "@types/chai": "^4.2.18",
+      "@types/mocha": "^8.2.2",
+      "@types/node": "^15.6.1",
+      "chai": "^4.3.4",
+      "ethereum-waffle": "^3.3.0",
+      "ethers": "^5.2.0",
+      "hardhat": "^2.3.0",
+      "hardhat-contract-sizer": "^2.1.0",
+      "hardhat-deploy": "^0.9.1",
+      "hardhat-deploy-ethers": "^0.3.0-beta.10",
+      "hardhat-ethers": "^1.0.1",
+      "hardhat-storage-layout": "^0.1.6",
+      "hardhat-typechain": "^0.3.5",
+      "solidity-coverage": "^0.7.20",
+      "ts-generator": "^0.1.1",
+      "ts-node": "^10.0.0",
+      "typechain": "^4.0.1",
+      "typescript": "^4.3.2"
+    },
+    "dependencies": {
+      "@ethersproject/hardware-wallets": "^5.7.0",
+      "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+      "@nomicfoundation/hardhat-verify": "^1.0.1",
+      "@openzeppelin/contracts": "^4.9.0",
+      "@rari-capital/solmate": "^6.4.0",
+      "solidity-code-metrics": "^0.0.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
